@@ -1,5 +1,5 @@
 {
-  "name": "vue-cli-generator-test",
+  "name": "form-generator-vue",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vue/cli": "^3.11.0",
+    "axios": "^0.19.0",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "element-ui": "^2.12.0",
+    "vue": "^2.6.10",
+    "vue-form-generator": "^2.3.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
